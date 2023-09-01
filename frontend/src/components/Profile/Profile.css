@@ -1,0 +1,90 @@
+.profileBox{
+    position: fixed;
+    text-align: left;
+    width: 82vw;
+    height: 100vh;
+    margin-top: 3vmax;
+    margin-left: 15vmax;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.profileBox::-webkit-scrollbar{
+    width: 0;
+}
+.empName{
+    display: flex;
+    background-color: #19105b;
+    color: white;
+    height: 8vmax;
+
+}
+.empName img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 1.5vmax;
+    border: 5px solid white;
+    transform: translateY(1vmax);
+}
+.empName .info{
+    height: max-content;
+    margin: 4.9vmax 0 0 0.2vmax;
+}
+
+.info p{
+    font-size: 12px;
+}
+.empName .info h1, .empName .info p{
+    margin: 0;
+    padding: 0;
+}
+.empName .info h1{
+    font-size: 20px;
+    margin-bottom: 0.2vmax;
+   
+}
+.empinformationcontainer{
+    margin-top: 5vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    height: 30vmax;
+}
+.personalInfo{
+    width: 17.5vmax;
+    font-size: 13px;
+}
+.personalInfo p{
+    display: flex;
+    align-items: center;
+    width: 15vmax;
+}
+.personalInfo p svg{
+    margin: 0 6px 0 0;
+}
+.empinformationcontainer h4{
+    background-color: #19105b;
+    color: white;
+    padding: 0.5vmax;
+    margin: 0;
+}
+.box1{
+    margin-top: 10vh;
+}
+
+.empInformation table{
+    width: 63vw;
+    border-collapse: collapse;
+}
+.empInformation table th{
+    padding: 0.5vmax 0.3vmax;
+    background-color: #FFE5EE;
+    font-size: 16px;
+}
+.empInformation table td{
+    padding: 1vmax 0.3vmax;
+    border-bottom: 1px solid rgb(225, 222, 222);
+    font-size: 14px;
+}

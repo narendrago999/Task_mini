@@ -1,0 +1,83 @@
+.icon{
+
+    display: none;
+
+}
+.image{
+    width: max-content;
+    
+}
+.image img{
+
+    margin: 0.8vmax 0 0.5vmax 1.2vmax;
+
+    width: 20px;
+
+}
+
+.side-bar{
+    position: fixed;
+    background: linear-gradient(#19105b, #472067, #7c3375, #FF6196);
+
+    color: white;
+
+    width: 12vw;
+
+}
+
+.side-bar ul{
+
+    margin: 0;
+
+    height: 100vh;
+
+    list-style: none;
+
+    padding: 0 1.5vmax 0 1.2vmax;
+
+    font-size: 12px;
+
+}
+.side-bar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-bar ul li{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 0.6rem 0;
+    cursor: pointer;
+
+}
+
+.side-bar .hide{
+
+    display: none;
+
+    align-items: center;
+
+    justify-content: left;
+
+ 
+
+}
+
+.side-bar .hide a{
+
+    margin: 0 0.5rem;
+
+    text-decoration: none;
+
+    color: white;
+
+}
+.exit{
+
+    transform: translateY(17vmax);
+}
